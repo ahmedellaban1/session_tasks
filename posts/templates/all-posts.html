@@ -7,7 +7,9 @@
     <body>
         {% for post in posts %}
             <h1>
-                {{post.title}}
+                <a href="{% url 'posts:post_details' id=post.id%}">
+                    {{post.title}}
+                </a>
             </h1>
             <ul>
                 <li>created py: {{post.auther}}</li>
