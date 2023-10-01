@@ -38,7 +38,7 @@ python3 -V
     $: git clone repo-link
     $: cd repo-folder-name
     $: python3 -m venv venv
-    $: source venv\bin\activate
+    $: source venv/bin/activate
     $: pip intall requirements.txt
     $: python manage.py migrate
     $: python manage.py runserver
