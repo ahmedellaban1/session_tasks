@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            {{page_title}}
+        </title>
+    </head>
+    <body>
+        {% for post in posts %}
+            <h1>
+                {{post.title}}
+            </h1>
+            <ul>
+                <li>created py: {{post.auther}}</li>
+                <li>date&time: {{post.publish_date}}</li>
+                <li><img width="500px" height="300px" src="{{post.image.url}}"></li>
+            </ul>
+            <p>caption: {{post.content}}</p>
+        {% endfor %}
+    </body>
+</html>
