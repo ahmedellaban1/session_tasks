@@ -43,12 +43,12 @@ python3 -V
     $: python manage.py migrate
     $: python manage.py runserver
 ```
-|     Folder |                           Description                            |
-|-----------:|:----------------------------------------------------------------:|
-|       core |            contains settings files and main root url             |
-|      posts | contains every thing about posts (db models, tables, views, urls |
-|      media |            contain media files (images, pdf, ...erc)             |
-| migrations |  contains db tables files that allow django to create database   |
-|  templates |                      contains (html) files                       |
-|     static |                  contains ( css, Js, img) files                  |
+| Folder     | Description                                                      |
+|:-----------|:-----------------------------------------------------------------|
+| core       | contains settings files and main root url                        |
+| posts      | contains every thing about posts (db models, tables, views, urls |
+| media      | contains media files (images, pdf, ...erc)                       |
+| migrations | contains db tables files that allow django to create database    |
+| templates  | contains (html) files                                            |
+| static     | contains ( css, Js, img) files                                   |
 
