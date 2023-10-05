@@ -6,7 +6,7 @@ Django simple project
 ```commandline
 python3 -V
 ```
-**if you have version older than 3.11.4 you can go to *[python.org](www.python.org)* and get suitable version.**
+**if you have version older than 3.11.4 you can go to **www.python.org** and get suitable version.**
 
 ---
 
