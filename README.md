@@ -23,7 +23,7 @@ python3 -V
     $: cd repo-folder-name
     $: python -m venv venv
     $: venv\Scripts\activate
-    $: pip intall requirements.txt
+    $: pip install requirements.txt
     $: python manage.py migrate
     $: python manage.py runserver
 ```
@@ -39,7 +39,7 @@ python3 -V
     $: cd repo-folder-name
     $: python3 -m venv venv
     $: source venv/bin/activate
-    $: pip intall requirements.txt
+    $: pip install requirements.txt
     $: python manage.py migrate
     $: python manage.py runserver
 ```
